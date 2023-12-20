@@ -27,14 +27,14 @@ A Node.js script that uses the Opera GX API to generate Discord Nitro promotion 
 3. Run the script:
 
    ```bash
-   node request.js
+   node index.js
    ```
 
 The script will perform a POST request to the Opera GX API every 2.5 seconds, generating Discord Nitro promotion links.
 
 ## Configuration
 
-- `request.js`: Main script file.
+- `index.js`: Main script file.
 - `token.txt`: File to store generated Discord Nitro promotion links.
 
 ## Contributing
