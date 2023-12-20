@@ -14,8 +14,8 @@ A Node.js script that uses the Opera GX API to generate Discord Nitro promotion 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/growtoups/operagxdiscordnitroscript.git
-   cd operagxdiscordnitroscript
+   git clone https://github.com/growtoups/operagx-discord-nitro-script.git
+   cd operagx-discord-nitro-script
    ```
 
 2. Install dependencies:
