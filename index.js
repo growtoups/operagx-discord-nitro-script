@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 const apiUrl = 'https://api.discord.gx.games/v1/direct-fulfillment';
-const localAddress = '202.5.26.83'; // Replace with the desired local IP address
+const localAddress = 'ip'; // Replace with the desired IP address
 const headers = {
   'authority': 'api.discord.gx.games',
   'accept': '*/*',
@@ -22,9 +22,6 @@ const headers = {
 const data = {
   partnerUserId: '0e1f1036a407b1afbe691a292fc817ce970ca859b88c05af722677891e2d15b1',
 };
-
-const interval = 1000; // 1 second
-
 function performRequest() {
   axios.post(apiUrl, data, { headers, localAddress })
     .then(response => {
@@ -40,5 +37,5 @@ function performRequest() {
     });
 }
 
-// Set up the interval to perform the request every second
+// Set up the interval to perform the request every 2.5 seconds
 setInterval(performRequest, 2500);
