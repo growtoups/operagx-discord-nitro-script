@@ -1,6 +1,6 @@
 # Discord Nitro Promotion Link Generator
 
-A Node.js script that uses the Opera GX API to generate Discord Nitro promotion links every 2.5 seconds.
+A Node.js script that uses the Opera GX API to generate Discord Nitro promotion links every 2.25 seconds.
 
 ## Prerequisites
 
