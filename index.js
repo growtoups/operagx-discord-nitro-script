@@ -37,5 +37,5 @@ function performRequest() {
     });
 }
 
-// Set up the interval to perform the request every 2.5 seconds
-setInterval(performRequest, 2500);
+// Set up the interval to perform the request every 2.25 seconds
+setInterval(performRequest, 2250);
